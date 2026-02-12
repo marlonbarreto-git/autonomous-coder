@@ -24,6 +24,8 @@ class CodeFile:
 class TestResult:
     """Outcome of running a test suite against generated code."""
 
+    __test__ = False
+
     passed: bool
     output: str
     num_passed: int = 0
