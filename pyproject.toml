@@ -2,10 +2,23 @@
 name = "autonomous-coder"
 version = "0.1.0"
 description = "Agent that receives coding tasks, writes code, executes tests, and iterates until tests pass."
+license = {text = "MIT"}
+authors = [{name = "Marlon Barreto", email = "mbarretot@hotmail.com"}]
+keywords = ["AI-agent", "code-generation", "LLM", "autonomous"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+]
 requires-python = ">=3.11"
 dependencies = [
     "pydantic>=2.10.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/marlonbarreto-git/autonomous-coder"
+Repository = "https://github.com/marlonbarreto-git/autonomous-coder"
+Issues = "https://github.com/marlonbarreto-git/autonomous-coder/issues"
 
 [project.optional-dependencies]
 dev = [
