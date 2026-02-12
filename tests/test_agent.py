@@ -5,7 +5,7 @@ from unittest.mock import MagicMock
 import pytest
 
 from auto_coder.agent import AutonomousCoder
-from auto_coder.models import CodeFile, StepType, TestResult
+from auto_coder.models import StepType, TestResult
 
 
 @pytest.fixture
